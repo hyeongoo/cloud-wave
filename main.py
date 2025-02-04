@@ -22,20 +22,13 @@ if 'logged_in' not in st.session_state:
 def side_bar():
     with st.sidebar.container():
         selected_page = option_menu(
-            menu_title="Main Menu", 
-            options=["Main_Home"],
-            # options=["Main_Home", "Photo_Gallery"],
-            # options=["Main_Home", "Photo_Gallery", "Travel_Attractions"],
-            icons=['bi bi-house', 'bi bi-images', 'bi bi-airplane-engines'],
-            menu_icon="cast", 
-            default_index=0,
-            styles={
-                "container": {"padding": "4!important", "background-color": "#fafafa"},
-                "icon": {"color": "black", "font-size": "20px"},
-                "nav-link": {"font-size": "14px", "text-align": "left", "margin":"0px", "--hover-color": "#fafafa"},
-                "nav-link-selected": {"background-color": "#08c7b4"}
-            }
-        )
+        menu_title="Main Menu",
+        #options=["Main_Home"],                   # 주석처리
+        options=["Main_Home", "Photo_Gallery"],   # 주석제거
+        # options=["Main_Home", "Photo_Gallery", "Travel_Attractions"],
+        icons=['bi bi-house', 'bi bi-images', 'bi bi-airplane-engines'],
+        ...
+    )
         # col1, col2, col3 = st.columns(3)
         # with col1:
         #     # RDS Database Login Session / Logout Function      
