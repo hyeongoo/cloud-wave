@@ -27,7 +27,7 @@ def side_bar():
         options=["Main_Home", "Photo_Gallery"],   # 주석제거
         # options=["Main_Home", "Photo_Gallery", "Travel_Attractions"],
         icons=['bi bi-house', 'bi bi-images', 'bi bi-airplane-engines'],
-        ...
+        
         )
         # col1, col2, col3 = st.columns(3)
         # with col1:
