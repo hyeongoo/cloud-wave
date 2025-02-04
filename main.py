@@ -28,7 +28,7 @@ def side_bar():
         # options=["Main_Home", "Photo_Gallery", "Travel_Attractions"],
         icons=['bi bi-house', 'bi bi-images', 'bi bi-airplane-engines'],
         ...
-    )
+        )
         # col1, col2, col3 = st.columns(3)
         # with col1:
         #     # RDS Database Login Session / Logout Function      
